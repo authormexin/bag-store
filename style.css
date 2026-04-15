@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  margin-top: 5px;
+  }
